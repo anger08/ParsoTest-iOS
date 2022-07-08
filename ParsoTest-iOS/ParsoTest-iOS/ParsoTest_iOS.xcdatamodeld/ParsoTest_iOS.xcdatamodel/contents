@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21C52" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DataProfile" representedClassName="DataProfile" syncable="YES" codeGenerationType="class">
+        <attribute name="cell" optional="YES" attributeType="Transformable"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="nat" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String" customClassName="[Results]"/>
+        <attribute name="sed" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="DataProfile" positionX="-63" positionY="-18" width="128" height="134"/>
+    </elements>
+</model>

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ProfileCollectionViewCell" customModule="ParsoTest_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="376" height="601"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="376" height="601"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Hi-rl-LoR" customClass="PTView" customModule="ParsoTest_iOS" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="376" height="601"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magadan, Solomon Islands, New Caledonia" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbb-sF-xEM">
+                                <rect key="frame" x="119" y="526" width="247" height="16.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="247" id="bPR-6c-mGA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Venezuela" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2i-jA-SDx">
+                                <rect key="frame" x="119" y="426.5" width="247" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="247" id="FBl-9I-qzv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caracas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ick-LB-50t">
+                                <rect key="frame" x="119" y="459.5" width="247" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="247" id="fRv-NP-nJ1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="set-Ta-dzE">
+                                <rect key="frame" x="12" y="460" width="99" height="20.5"/>
+                                <color key="backgroundColor" red="0.17156049919999999" green="0.0" blue="0.14107674319999999" alpha="0.96008381620000005" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="mK0-h7-FLa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.2881233829" green="0.1125843508" blue="0.315488979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="2" height="-1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="male" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHY-00-KCm">
+                                <rect key="frame" x="118" y="338" width="247" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="247" id="sCI-PC-Std"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Offset :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uf8-xP-Gfr">
+                                <rect key="frame" x="12" y="549.5" width="99" height="19"/>
+                                <color key="backgroundColor" red="0.17156049919999999" green="0.0" blue="0.14107674319999999" alpha="0.96008381620000005" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="XJi-qD-0m1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.2881233829" green="0.1125843508" blue="0.315488979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="2" height="-1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHQ-za-Orb">
+                                <rect key="frame" x="12" y="427.5" width="99" height="20.5"/>
+                                <color key="backgroundColor" red="0.17156049919999999" green="0.0" blue="0.14107674319999999" alpha="0.96008381620000005" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="xYp-jq-wO1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.2881233829" green="0.1125843508" blue="0.315488979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="2" height="-1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIh-fh-P9O">
+                                <rect key="frame" x="12" y="338.5" width="99" height="21"/>
+                                <color key="backgroundColor" red="0.17156049919999999" green="0.0" blue="0.14107674319999999" alpha="0.96008381620000005" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="oAY-YM-ACf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.2881233829" green="0.1125843508" blue="0.315488979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="2" height="-1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="877887878" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPW-Fq-YUM">
+                                <rect key="frame" x="119" y="492.5" width="247" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="247" id="Wbb-Ny-9aR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+98765566" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gix-D1-Xi3">
+                                <rect key="frame" x="119" y="394.5" width="247" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="247" id="MYm-3B-fd6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihB-sJ-sQm">
+                                <rect key="frame" x="12" y="493.5" width="99" height="20"/>
+                                <color key="backgroundColor" red="0.17156049919999999" green="0.0" blue="0.14107674319999999" alpha="0.96008381620000005" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="suY-tH-suo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.2881233829" green="0.1125843508" blue="0.315488979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="2" height="-1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EMA-nD-VoO">
+                                <rect key="frame" x="12" y="395" width="99" height="20.5"/>
+                                <color key="backgroundColor" red="0.17156049919999999" green="0.0" blue="0.14107674319999999" alpha="0.96008381620000005" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="5MZ-II-mCW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.2881233829" green="0.1125843508" blue="0.315488979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="2" height="-1"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="2vC-XL-qQY" customClass="PTImageView" customModule="ParsoTest_iOS" customModuleProvider="target">
+                                <rect key="frame" x="108" y="52" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="RaS-P1-N4G"/>
+                                    <constraint firstAttribute="width" constant="160" id="rkt-dK-bqU"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="80"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mr:  Jose Manuel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pwj-Sq-xbd">
+                                <rect key="frame" x="106.5" y="220" width="163" height="27.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@beautifulcat759" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCC-89-KSd">
+                                <rect key="frame" x="126.5" y="248.5" width="123" height="20.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="15"/>
+                                <color key="textColor" red="0.11166466586634653" green="0.0" blue="0.18364689625850339" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="damian.willumsen@example.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOQ-x2-3fJ">
+                                <rect key="frame" x="119" y="310.5" width="247" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="247" id="ZiD-f3-vpA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SSV-rc-K6E">
+                                <rect key="frame" x="12" y="367.5" width="99" height="20.5"/>
+                                <color key="backgroundColor" red="0.17156049919999999" green="0.0" blue="0.14107674319999999" alpha="0.96008381620000005" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="uSW-rP-9N8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.2881233829" green="0.1125843508" blue="0.315488979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="2" height="-1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCF-Y7-pdF">
+                                <rect key="frame" x="119" y="367" width="247" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="247" id="uU6-rR-dtP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MMY-YN-ovQ" customClass="PTView" customModule="ParsoTest_iOS" customModuleProvider="target">
+                                <rect key="frame" x="9.5" y="291" width="357" height="2"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="357" id="CnC-WD-3si"/>
+                                    <constraint firstAttribute="height" constant="2" id="uzd-sP-6MU"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6v-N7-9pD">
+                                <rect key="frame" x="11" y="311" width="100" height="20.5"/>
+                                <color key="backgroundColor" red="0.17156049919999999" green="0.0" blue="0.14107674319999999" alpha="0.96008381620000005" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="iCO-rK-Wnj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="19"/>
+                                <color key="textColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.28812338292339101" green="0.11258435080126349" blue="0.31548897902525264" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="2" height="-1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+11:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjg-sZ-hwf">
+                                <rect key="frame" x="119" y="548" width="247" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="247" id="8vY-7S-htl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VGP-8U-dSf" customClass="PTView" customModule="ParsoTest_iOS" customModuleProvider="target">
+                                <rect key="frame" x="9.5" y="516.5" width="357" height="2"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="357" id="Cya-gv-v1k"/>
+                                    <constraint firstAttribute="height" constant="2" id="wFf-3X-k49"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TimeZone :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CF5-RU-mOQ">
+                                <rect key="frame" x="11" y="524.5" width="100" height="19.5"/>
+                                <color key="backgroundColor" red="0.17156049919999999" green="0.0" blue="0.14107674319999999" alpha="0.96008381620000005" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="jka-Ha-6im"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.2881233829" green="0.1125843508" blue="0.315488979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="2" height="-1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.49248806910643578" green="0.24638786647855332" blue="0.68991685154462101" alpha="0.33536837748344372" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="VGP-8U-dSf" firstAttribute="trailing" secondItem="MMY-YN-ovQ" secondAttribute="trailing" id="1iz-hw-GQi"/>
+                            <constraint firstItem="2vC-XL-qQY" firstAttribute="centerX" secondItem="0Hi-rl-LoR" secondAttribute="centerX" id="2AN-1N-BmX"/>
+                            <constraint firstItem="set-Ta-dzE" firstAttribute="leading" secondItem="0Hi-rl-LoR" secondAttribute="leading" constant="12" id="2VW-vY-HJz"/>
+                            <constraint firstItem="VGP-8U-dSf" firstAttribute="centerX" secondItem="MMY-YN-ovQ" secondAttribute="centerX" id="2oY-U5-Pum"/>
+                            <constraint firstItem="Pwj-Sq-xbd" firstAttribute="centerX" secondItem="2vC-XL-qQY" secondAttribute="centerX" id="3v4-6L-qSx"/>
+                            <constraint firstItem="e6v-N7-9pD" firstAttribute="leading" secondItem="0Hi-rl-LoR" secondAttribute="leading" constant="11" id="6gi-he-rEJ"/>
+                            <constraint firstItem="set-Ta-dzE" firstAttribute="top" secondItem="kHQ-za-Orb" secondAttribute="bottom" constant="12" id="EhJ-U7-zIZ"/>
+                            <constraint firstItem="uf8-xP-Gfr" firstAttribute="leading" secondItem="0Hi-rl-LoR" secondAttribute="leading" constant="12" id="GhM-TQ-5eR"/>
+                            <constraint firstItem="Pwj-Sq-xbd" firstAttribute="top" secondItem="2vC-XL-qQY" secondAttribute="bottom" constant="8" id="H53-hc-sYJ"/>
+                            <constraint firstItem="hHY-00-KCm" firstAttribute="centerY" secondItem="EIh-fh-P9O" secondAttribute="centerY" constant="-0.25" id="HiD-pp-IfL"/>
+                            <constraint firstItem="VGP-8U-dSf" firstAttribute="leading" secondItem="MMY-YN-ovQ" secondAttribute="leading" id="J0b-8G-LnG"/>
+                            <constraint firstItem="hHY-00-KCm" firstAttribute="leading" secondItem="EIh-fh-P9O" secondAttribute="trailing" constant="7" id="KdT-SZ-hgz"/>
+                            <constraint firstItem="LPW-Fq-YUM" firstAttribute="leading" secondItem="ihB-sJ-sQm" secondAttribute="trailing" constant="8" symbolic="YES" id="KhP-lZ-wDG"/>
+                            <constraint firstItem="kHQ-za-Orb" firstAttribute="top" secondItem="EMA-nD-VoO" secondAttribute="bottom" constant="12" id="OFK-kN-SMG"/>
+                            <constraint firstItem="2vC-XL-qQY" firstAttribute="top" secondItem="0Hi-rl-LoR" secondAttribute="top" constant="52" id="PUw-hR-hEQ"/>
+                            <constraint firstItem="ick-LB-50t" firstAttribute="centerY" secondItem="set-Ta-dzE" secondAttribute="centerY" id="Qnx-Wd-QpX"/>
+                            <constraint firstItem="SSV-rc-K6E" firstAttribute="top" secondItem="EIh-fh-P9O" secondAttribute="bottom" constant="8" id="Qs7-es-WhQ"/>
+                            <constraint firstItem="gix-D1-Xi3" firstAttribute="leading" secondItem="EMA-nD-VoO" secondAttribute="trailing" constant="8" symbolic="YES" id="RPx-hj-0aC"/>
+                            <constraint firstItem="ick-LB-50t" firstAttribute="leading" secondItem="set-Ta-dzE" secondAttribute="trailing" constant="8" symbolic="YES" id="U41-da-h1O"/>
+                            <constraint firstItem="SSV-rc-K6E" firstAttribute="leading" secondItem="0Hi-rl-LoR" secondAttribute="leading" constant="12" id="Urv-Ob-bzC"/>
+                            <constraint firstItem="MMY-YN-ovQ" firstAttribute="top" secondItem="UCC-89-KSd" secondAttribute="bottom" constant="22" id="XnV-UL-7cs"/>
+                            <constraint firstItem="ihB-sJ-sQm" firstAttribute="top" secondItem="set-Ta-dzE" secondAttribute="bottom" constant="13" id="aAB-K1-CNu"/>
+                            <constraint firstItem="EMA-nD-VoO" firstAttribute="leading" secondItem="0Hi-rl-LoR" secondAttribute="leading" constant="12" id="bha-00-Z1p"/>
+                            <constraint firstItem="gCF-Y7-pdF" firstAttribute="leading" secondItem="SSV-rc-K6E" secondAttribute="trailing" constant="8" symbolic="YES" id="cSD-Qf-Hy1"/>
+                            <constraint firstItem="UCC-89-KSd" firstAttribute="centerX" secondItem="Pwj-Sq-xbd" secondAttribute="centerX" id="dYU-IQ-ncY"/>
+                            <constraint firstItem="kHQ-za-Orb" firstAttribute="leading" secondItem="0Hi-rl-LoR" secondAttribute="leading" constant="12" id="drA-N7-q8q"/>
+                            <constraint firstItem="EMA-nD-VoO" firstAttribute="centerY" secondItem="gix-D1-Xi3" secondAttribute="centerY" id="eY6-7Z-YfB"/>
+                            <constraint firstItem="yjg-sZ-hwf" firstAttribute="centerY" secondItem="uf8-xP-Gfr" secondAttribute="centerY" id="hCG-7T-UZm"/>
+                            <constraint firstItem="EMA-nD-VoO" firstAttribute="top" secondItem="SSV-rc-K6E" secondAttribute="bottom" constant="7" id="hJC-hw-fos"/>
+                            <constraint firstItem="VGP-8U-dSf" firstAttribute="top" secondItem="ihB-sJ-sQm" secondAttribute="bottom" constant="3" id="hO3-5E-jd8"/>
+                            <constraint firstItem="gCF-Y7-pdF" firstAttribute="centerY" secondItem="SSV-rc-K6E" secondAttribute="centerY" id="jqk-qZ-HON"/>
+                            <constraint firstItem="MMY-YN-ovQ" firstAttribute="centerX" secondItem="UCC-89-KSd" secondAttribute="centerX" id="k0m-aL-Aks"/>
+                            <constraint firstItem="EIh-fh-P9O" firstAttribute="top" secondItem="e6v-N7-9pD" secondAttribute="bottom" constant="7" id="kvg-h8-HIN"/>
+                            <constraint firstItem="CF5-RU-mOQ" firstAttribute="leading" secondItem="0Hi-rl-LoR" secondAttribute="leading" constant="11" id="lLz-36-bdd"/>
+                            <constraint firstItem="Sbb-sF-xEM" firstAttribute="centerY" secondItem="CF5-RU-mOQ" secondAttribute="centerY" id="mls-Hn-dpX"/>
+                            <constraint firstItem="e6v-N7-9pD" firstAttribute="top" secondItem="MMY-YN-ovQ" secondAttribute="bottom" constant="18" id="n6m-He-EsG"/>
+                            <constraint firstItem="ihB-sJ-sQm" firstAttribute="leading" secondItem="0Hi-rl-LoR" secondAttribute="leading" constant="12" id="oRL-yo-Vch"/>
+                            <constraint firstItem="LPW-Fq-YUM" firstAttribute="centerY" secondItem="ihB-sJ-sQm" secondAttribute="centerY" id="old-zf-pos"/>
+                            <constraint firstItem="IOQ-x2-3fJ" firstAttribute="leading" secondItem="e6v-N7-9pD" secondAttribute="trailing" constant="8" symbolic="YES" id="opV-n9-jVT"/>
+                            <constraint firstItem="yjg-sZ-hwf" firstAttribute="leading" secondItem="uf8-xP-Gfr" secondAttribute="trailing" constant="8" symbolic="YES" id="pME-fJ-f7e"/>
+                            <constraint firstItem="IOQ-x2-3fJ" firstAttribute="centerY" secondItem="e6v-N7-9pD" secondAttribute="centerY" id="pfN-3Z-9X0"/>
+                            <constraint firstItem="uf8-xP-Gfr" firstAttribute="top" secondItem="CF5-RU-mOQ" secondAttribute="bottom" constant="5.5" id="qus-2v-G9e"/>
+                            <constraint firstItem="CF5-RU-mOQ" firstAttribute="top" secondItem="VGP-8U-dSf" secondAttribute="bottom" constant="6" id="tda-Kg-ZL3"/>
+                            <constraint firstItem="Sbb-sF-xEM" firstAttribute="leading" secondItem="CF5-RU-mOQ" secondAttribute="trailing" constant="8" symbolic="YES" id="twL-F0-e8D"/>
+                            <constraint firstItem="I2i-jA-SDx" firstAttribute="centerY" secondItem="kHQ-za-Orb" secondAttribute="centerY" constant="-0.25" id="u7E-Ac-mlz"/>
+                            <constraint firstItem="I2i-jA-SDx" firstAttribute="leading" secondItem="kHQ-za-Orb" secondAttribute="trailing" constant="8" symbolic="YES" id="uZi-4q-H30"/>
+                            <constraint firstItem="UCC-89-KSd" firstAttribute="top" secondItem="Pwj-Sq-xbd" secondAttribute="bottom" constant="1" id="wKX-p1-Vo1"/>
+                            <constraint firstItem="EIh-fh-P9O" firstAttribute="leading" secondItem="0Hi-rl-LoR" secondAttribute="leading" constant="12" id="yeb-Ig-wIk"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="0Hi-rl-LoR" secondAttribute="trailing" id="Vb0-6l-Y5Q"/>
+                <constraint firstAttribute="bottom" secondItem="0Hi-rl-LoR" secondAttribute="bottom" id="f2X-Cm-Wqe"/>
+                <constraint firstItem="0Hi-rl-LoR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="lgM-zK-RCu"/>
+                <constraint firstItem="0Hi-rl-LoR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="x49-fb-hq1"/>
+            </constraints>
+            <size key="customSize" width="376" height="601"/>
+            <connections>
+                <outlet property="ageUserLabel" destination="gCF-Y7-pdF" id="5Kd-zL-DNF"/>
+                <outlet property="countryLabel" destination="I2i-jA-SDx" id="a17-jl-MaY"/>
+                <outlet property="emailUserLabel" destination="IOQ-x2-3fJ" id="UuQ-dc-IVK"/>
+                <outlet property="genderLabel" destination="hHY-00-KCm" id="Ew8-uJ-6hJ"/>
+                <outlet property="idLabel" destination="LPW-Fq-YUM" id="cEW-Mr-xNf"/>
+                <outlet property="nameLabel" destination="Pwj-Sq-xbd" id="pac-1z-Cf2"/>
+                <outlet property="offsetLabel" destination="yjg-sZ-hwf" id="V2e-VP-U7N"/>
+                <outlet property="phoneNumberLabel" destination="gix-D1-Xi3" id="dvA-7d-13m"/>
+                <outlet property="profilePictureImageView" destination="2vC-XL-qQY" id="Tep-D1-Ky0"/>
+                <outlet property="stateLabel" destination="ick-LB-50t" id="jcN-9H-vAp"/>
+                <outlet property="timeZoneLabel" destination="Sbb-sF-xEM" id="jAz-hS-Ifw"/>
+                <outlet property="userNameLabel" destination="UCC-89-KSd" id="5yV-Hg-yRv"/>
+                <outlet property="viewSeparator" destination="MMY-YN-ovQ" id="poi-SJ-Okn"/>
+            </connections>
+            <point key="canvasLocation" x="201.44927536231884" y="155.69196428571428"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="2vC-XL-qQY">
+            <size key="intrinsicContentSize" width="236" height="236"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="profile" width="236" height="236"/>
+    </resources>
+</document>
